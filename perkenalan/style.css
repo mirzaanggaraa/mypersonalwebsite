@@ -1,0 +1,318 @@
+/* Import font dari Google Fonts */
+@import url("https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Permanent+Marker&family=Wallpoet&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Average+Sans&display=swap");
+
+@media screen and (min-width: 768px) {
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: content-box;
+  }
+
+  /* Styling untuk bagian utama konten */
+  .container {
+    background-color: rgba(48, 46, 46, 1);
+    width: 95%;
+    padding: 25px;
+    margin: 10px;
+    border-radius: 10px;
+    font-family: "Roboto", sans-serif;
+  }
+
+  .header-section {
+    display: flex;
+    margin-bottom: 20px;
+  }
+
+  /* Styling untuk bagian nama */
+  .name {
+    border-radius: 200px;
+    background-color: rgba(89, 89, 89, 1);
+    width: 75%;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  /* Styling untuk teks nama */
+  .name-top p {
+    font-size: 47px;
+    font-weight: bold;
+    text-decoration: underline;
+    text-transform: uppercase;
+    font-family: "Permanent Marker", cursive;
+  }
+
+  .icon-name {
+    display: flex;
+    justify-content: space-around;
+    width: 23%;
+    margin-top: 10px;
+  }
+  .icon-name i {
+    font-size: 45px;
+  }
+
+  /* Styling untuk logo */
+  .logo {
+    width: 25%;
+  }
+
+  .logo img {
+    width: 300px;
+    height: auto;
+    margin-left: 20px;
+  }
+
+  .main-section {
+    display: flex;
+    line-height: 2;
+    margin-bottom: 20px;
+  }
+
+  .nav {
+    border-radius: 20px;
+    background-color: rgba(89, 89, 89, 1);
+    width: 25%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    margin-right: 10px;
+  }
+
+  /* Styling untuk teks dalam "nav" */
+  .nav p {
+    position: relative;
+    text-align: left; /* Mengatur teks agar rata kiri */
+    margin: 10px 0; /* Mengatur jarak antara teks */
+    padding: 5px; /* Tambahkan padding sesuai kebutuhan Anda */
+    border-radius: 10px; /* Agar teks mengikuti bentuk border */
+    font-family: "Permanent Marker", cursive;
+  }
+
+  /* Styling untuk bagian "about" */
+  .about {
+    width: 75%;
+    border-radius: 10px;
+    background-color: rgba(89, 89, 89, 1);
+  }
+
+  /* Styling untuk judul "about" */
+  .about-title {
+    font-size: 47px;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: "Wallpoet", cursive;
+    text-decoration: underline;
+  }
+
+  /* Styling untuk bagian foto pada "about" */
+  .about-photo {
+    width: 50%;
+    margin: 10px;
+    text-transform: uppercase;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: "Roboto", sans-serif;
+  }
+
+  /* Styling untuk deskripsi pada "about" */
+  .about-desc {
+    width: 50%;
+    font-size: 25px;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-align: center;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  /* Styling untuk teks deskripsi pada "about" */
+  .about-desc p {
+    font-family: "Average Sans", sans-serif;
+  }
+
+  .footer {
+    width: 100%;
+    line-height: 4;
+    border-radius: 0px;
+    background-color: rgba(217, 217, 217, 1);
+    font-size: 15px;
+    text-transform: uppercase;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+}
+
+@media screen and (max-width: 420px) {
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: content-box;
+  }
+
+  /* Styling untuk bagian utama konten */
+  .container {
+    background-color: rgba(48, 46, 46, 1);
+    width: 95%;
+    padding: 25px;
+    margin: 10px;
+    border-radius: 10px;
+    font-family: "Roboto", sans-serif;
+  }
+
+  .header-section {
+    display: flex;
+    margin-bottom: 20px;
+  }
+
+  /* Styling untuk bagian nama */
+  .name {
+    border-radius: 200px;
+    background-color: rgba(89, 89, 89, 1);
+    width: 75%;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  /* Styling untuk teks nama */
+  .name-top p {
+    font-size: 47px;
+    font-weight: bold;
+    text-decoration: underline;
+    text-transform: uppercase;
+    font-family: "Permanent Marker", cursive;
+  }
+
+  .icon-name {
+    display: flex;
+    justify-content: space-around;
+    width: 23%;
+    margin-top: 10px;
+  }
+  .icon-name i {
+    font-size: 45px;
+  }
+
+  /* Styling untuk logo */
+  .logo {
+    width: 25%;
+  }
+
+  .logo img {
+    width: 300px;
+    height: auto;
+    margin-left: 20px;
+  }
+
+  .main-section {
+    display: flex;
+    line-height: 2;
+    margin-bottom: 20px;
+  }
+
+  .nav {
+    border-radius: 20px;
+    background-color: rgba(89, 89, 89, 1);
+    width: 25%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    margin-right: 10px;
+  }
+
+  /* Styling untuk teks dalam "nav" */
+  .nav p {
+    position: relative;
+    text-align: left; /* Mengatur teks agar rata kiri */
+    margin: 10px 0; /* Mengatur jarak antara teks */
+    padding: 5px; /* Tambahkan padding sesuai kebutuhan Anda */
+    border-radius: 10px; /* Agar teks mengikuti bentuk border */
+    font-family: "Permanent Marker", cursive;
+  }
+
+  /* Styling untuk bagian "about" */
+  .about {
+    width: 75%;
+    border-radius: 10px;
+    background-color: rgba(89, 89, 89, 1);
+  }
+
+  /* Styling untuk judul "about" */
+  .about-title {
+    font-size: 47px;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: "Wallpoet", cursive;
+    text-decoration: underline;
+  }
+
+  /* Styling untuk bagian foto pada "about" */
+  .about-photo {
+    width: 50%;
+    margin: 10px;
+    text-transform: uppercase;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: "Roboto", sans-serif;
+  }
+
+  /* Styling untuk deskripsi pada "about" */
+  .about-desc {
+    width: 50%;
+    font-size: 25px;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-align: center;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  /* Styling untuk teks deskripsi pada "about" */
+  .about-desc p {
+    font-family: "Average Sans", sans-serif;
+  }
+
+  .footer {
+    width: 100%;
+    line-height: 4;
+    border-radius: 0px;
+    background-color: rgba(217, 217, 217, 1);
+    font-size: 15px;
+    text-transform: uppercase;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+}
