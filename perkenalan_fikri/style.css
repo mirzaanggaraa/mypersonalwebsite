@@ -1,0 +1,120 @@
+body {
+  height: 100vh;
+  background-color: azure;
+  margin: 0px;
+  background: rgb(255, 255, 255);
+  background-image: url(../img/Download\ wallpapers\ World\ map\,\ black\ background\,\ continents\,\ lines\ style\,\ world\ map\ concepts\ for\ desktop\ free_\ Pictures\ for\ desktop\ free.png);
+}
+
+.table {
+  margin-left: 50px;
+  font-family: sans-serif;
+  color: #ffffff;
+  border-style: double;
+  margin-right: auto;
+  outline-style: solid;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  border: 5px solid black;
+  text-align: center;
+}
+
+.footer {
+  color: #ffffff;
+  background: rgb(0, 0, 0);
+  text-align: center;
+  bottom: 0;
+  left: 0;
+  position: fixed;
+  width: 100%;
+  text-shadow: 1px 1px 2px rgb(252, 252, 252), 0 0 25px rgba(26, 170, 146, 1), 0 0 5px rgba(26, 170, 146, 1);
+}
+
+.biodata {
+  margin-bottom: auto;
+  color: #ffffff;
+  float: right;
+  height: 480px;
+  width: 400px;
+  border-radius: 0px;
+  -webkit-border-radius: 50px;
+  -moz-border-radius: 200px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+  margin-top: 0px;
+  margin-right: 100px;
+  border-style: solid;
+  box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+  background-image: url("../img/Kartun\ estetik😶_🌫️\ Iphone\ wallpaper\ cat\,\ Crazy\ wallpaper\,\ Wallpaper\ iphone\ cute.jpg");
+}
+
+.head {
+  background: rgb(0, 0, 0);
+  text-align: center;
+  width: 100%;
+  height: auto;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+header h1 {
+  margin-left: auto;
+  margin-right: auto;
+  justify-content: center;
+  width: 50%;
+  font-size: 50px;
+  font-weight: 600;
+  color: transparent;
+  background-image: linear-gradient(to right, #553c9a, #ee4b2b, #00c2cb, #ff7f50, #553c9a);
+  -webkit-background-clip: text;
+  background-clip: text;
+  background-size: 200%;
+  background-position: -200%;
+  animation: animated-gradient 2s infinite alternate-reverse;
+}
+@keyframes animated-gradient {
+  to {
+    background-position: 200%;
+  }
+}
+
+.foto {
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  padding: 5px;
+  width: 150px;
+  align-items: center;
+  align-content: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+th {
+  border-color: #ffffff;
+  font-weight: bold;
+  font-size: 15px;
+  color: black;
+  /* text-shadow: 1px 1px 2px rgb(252, 252, 252), 0 0 25px rgba(26, 170, 146, 1), 0 0 5px rgba(26, 170, 146, 1); */
+  border-style: dashed;
+  border-width: 3px;
+}
+
+td {
+  font-size: 15px;
+  font-family: cursive;
+  margin: auto;
+  padding: 15px;
+  text-align: center;
+  color: #000000;
+  border: 1px solid rgb(255, 255, 255);
+  background-color: #ffffff;
+}
+
+.text {
+  text-align: center;
+  border-color: #ffffff;
+  font-weight: bold;
+  font-size: 15px;
+  color: rgb(255, 255, 255);
+  text-shadow: 1px 1px 2px rgb(0, 0, 0), 0 0 25px rgba(26, 170, 146, 1), 0 0 5px rgba(26, 170, 146, 1);
+}

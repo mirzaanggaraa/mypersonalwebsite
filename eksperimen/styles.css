@@ -1,0 +1,81 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background-color: #f5f5f5;
+  margin: 0;
+}
+
+.flower-container {
+  position: relative;
+}
+
+.flower {
+  width: 0;
+  height: 0;
+  border-left: 30px solid transparent;
+  border-right: 30px solid transparent;
+  border-bottom: 60px solid #ff69b4; /* Change flower color here */
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.flower:before {
+  content: "";
+  width: 60px;
+  height: 60px;
+  background: #ffd700; /* Change center color here */
+  border-radius: 50%;
+  position: absolute;
+  top: -40px;
+  left: -30px;
+}
+
+.flower:after {
+  content: "";
+  width: 60px;
+  height: 60px;
+  background: #ffd700; /* Change center color here */
+  border-radius: 50%;
+  position: absolute;
+  top: -40px;
+  right: -30px;
+}
+
+.petals {
+  width: 30px;
+  height: 60px;
+  background: #ff69b4; /* Change petal color here */
+  position: absolute;
+  top: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  border-radius: 50%;
+}
+
+.petals:nth-child(1) {
+  transform: rotate(0deg);
+}
+
+.petals:nth-child(2) {
+  transform: rotate(60deg);
+}
+
+.petals:nth-child(3) {
+  transform: rotate(120deg);
+}
+
+.petals:nth-child(4) {
+  transform: rotate(180deg);
+}
+
+.petals:nth-child(5) {
+  transform: rotate(240deg);
+}
+
+.petals:nth-child(6) {
+  transform: rotate(300deg);
+}

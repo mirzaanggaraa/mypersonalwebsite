@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Happy Birthday!</title>
+    <link rel="stylesheet" href="birth.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="balloons"></div>
+      <div class="cake">
+        <div class="layer layer-bottom"></div>
+        <div class="layer layer-middle"></div>
+        <div class="layer layer-top"></div>
+        <div class="icing"></div>
+        <div class="candle">
+          <div class="flame"></div>
+        </div>
+      </div>
+      <h1>Happy Birthday, <span id="name"></span>!</h1>
+      <input type="text" id="nameInput" placeholder="Masukkan nama Anda" />
+      <button onclick="updateName()">Submit</button>
+    </div>
+
+    <script src="birth.js"></script>
+  </body>
+</html>
